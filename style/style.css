@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+        box-sizing:border-box;
+
+    }
     html, body {
         font-family: 'Poppins', sans-serif;
         font-size:15px;
-        width:100%;
-        height:100%;
+        height:100vh;
+        width:100vw;
         background-color:#FAFAFA;
-        box-sizing:border-box;
 }
 p {
     margin-top:1.6rem;
@@ -35,7 +38,7 @@ header h1{
 }
 header h2 {
     margin:0;
-    color: #4C4E61;
+    color: #A3A5AE;
     font-size:1.7rem;
     font-weight:300;
 } 
@@ -48,7 +51,7 @@ header h2 {
 main {
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 0.5fr 1.1fr 0.5fr;
     gap:1.6rem;
 }
 
@@ -79,7 +82,6 @@ main {
 }
 #icon-karma {
     border-top:0.29rem solid #FCAF4A;
-
 }
 #icon-calculator {
     border-top:0.29rem solid #549EF2;
@@ -87,24 +89,51 @@ main {
 img {
     align-self:flex-end;
     margin-bottom:1em;
-   
 }
 
-
+#gradeGrade {
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr;
+    display:grid;
+    gap:1.6rem;
+}
 
 @media (min-width:1200px) {
-    
-   main {
-      
-        grid-template: 1fr 1fr / 1fr 1fr 1fr
+    #grid-home {
+        padding:0rem 7rem 0rem 7rem;
+
+    }
+    header {
+        justify-self:center;
+        width:36rem;
+    }
+    header h1, header h2 {
+        font-size:2.5rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+    }
+    #icon-supervisor, #icon-calculator {
+        align-self:center;
+
+    }
+   .cards {
+       height:20rem;
    }
-   #icon-team {
-       grid-column:2;
-       grid-row:1;
+    .cards p {
+        margin-bottom:3.5rem;
+    }
+   #gradeGrade {
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
    }
-   #icon-karma {
-       grid-column:2;
-       grid-column:2;
+   img {
+    margin-top: 2.5rem;
+    margin-right:0.9rem;
    }
+
 
 }
