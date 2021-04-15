@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    html, body {
+        font-family: 'Poppins', sans-serif;
+        font-size:15px;
+        width:100%;
+        height:100%;
+        background-color:#FAFAFA;
+        box-sizing:border-box;
+}
+p {
+    margin-top:1.6rem;
+    line-height:1.6rem;
+    font-size:1rem;
+    color:#A3A5AE;
+}
+header {
+    text-align:center;
+}
+#grid-home {
+    background-color:#FAFAFA;
+    margin: 6em 1.7em;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 3.9fr;
+}
+
+
+header h1{
+    margin-top:0.49rem;
+    color: #4C4E61;
+    font-size:1.7rem;
+    font-weight:700;
+}
+header h2 {
+    margin:0;
+    color: #4C4E61;
+    font-size:1.7rem;
+    font-weight:300;
+} 
+
+
+
+
+
+
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap:1.6rem;
+}
+
+
+.cards {
+    border-radius:10px;
+    padding:1rem 1.8rem;
+    box-shadow:0px 12px 37px -15px #969690;
+    display:flex;
+    flex-direction:column;
+}
+.cards h3 {
+    font-size:1.5rem;
+    color:#4C4E61;
+    margin-bottom:0.5rem;
+    margin-top:1rem;
+}
+.cards p{
+    font-size:0.9rem;
+    margin-top:0;
+    margin-bottom:2rem;
+}
+#icon-supervisor {
+    border-top:0.29rem solid #45D3D3;
+}
+#icon-team {
+    border-top:0.29rem solid #EA5353;
+}
+#icon-karma {
+    border-top:0.29rem solid #FCAF4A;
+
+}
+#icon-calculator {
+    border-top:0.29rem solid #549EF2;
+}
+img {
+    align-self:flex-end;
+    margin-bottom:1em;
+   
+}
+
+
+
+@media (min-width:1200px) {
+    
+   main {
+      
+        grid-template: 1fr 1fr / 1fr 1fr 1fr
+   }
+   #icon-team {
+       grid-column:2;
+       grid-row:1;
+   }
+   #icon-karma {
+       grid-column:2;
+       grid-column:2;
+   }
+
+}
