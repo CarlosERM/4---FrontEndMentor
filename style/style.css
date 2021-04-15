@@ -100,8 +100,8 @@ img {
 
 @media (min-width:1200px) {
     #grid-home {
-        padding:0rem 7rem 0rem 7rem;
-
+        padding:6rem 7rem 0rem 7rem;
+        margin:0;
     }
     header {
         justify-self:center;
@@ -120,10 +120,11 @@ img {
 
     }
    .cards {
-       height:20rem;
+       height:18.5rem;
    }
     .cards p {
-        margin-bottom:3.5rem;
+        font-size:1rem;
+        margin-bottom:1.5rem;
     }
    #gradeGrade {
        display:flex;
