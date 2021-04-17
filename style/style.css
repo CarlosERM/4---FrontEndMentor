@@ -161,13 +161,11 @@ img {
         grid-template-rows:0.5fr;
     }
     #icon-supervisor, #icon-calculator {
-        align-self:center;
-
+        margin-top:10rem;
     }
     #icon-supervisor {
         grid-column:3;
         grid-row:1;
-        margin:0rem;
     }
    .cards {
        height:16.5rem;
