@@ -8,14 +8,13 @@
     html, body {
         font-family: 'Poppins', sans-serif;
         font-size:15px;
-        height:100vh;
-        width:100vw;
+        height:100%;
         background-color:#FAFAFA;
 }
 p {
     line-height:1.6rem;
     font-size:1rem;
-    color:#A3A5AE;
+    color:#4C4E61;
     font-weight:300;
 }
 header {
@@ -71,6 +70,7 @@ main {
     margin-top:1rem;
 }
 .cards p{
+    color:#A3A5AE;
     font-size:0.9rem;
     margin-top:0;
     margin-bottom:2rem;
@@ -103,8 +103,44 @@ img {
     display:grid;
     gap:1.6rem;
 }
+@media (min-width:600px) {
+    main {
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    #icon-calculator {
+        grid-column:1;
+        grid-row:1;
+    }
+    #icon-supervisor {
+        grid-column:1;
+        grid-row:1;
+        margin-top:16.499rem;
+    }
+    #grid-home {
+        gap:2rem;
+    }
+    #gradeGrade {
+        padding-bottom:7rem;
+    }
+}
+@media (min-width:886px) {
+    main {
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    #icon-calculator {
+        grid-column:1;
+        grid-row:1;
+    }
+    #icon-supervisor {
+        grid-column:1;
+        grid-row:1;
+        margin-top:16.499rem;
+    }
+ 
 
-
+}
 @media (min-width:1000px) {
     #grid-home {
         padding:6rem 7rem 0rem 7rem;
@@ -127,6 +163,11 @@ img {
     #icon-supervisor, #icon-calculator {
         align-self:center;
 
+    }
+    #icon-supervisor {
+        grid-column:3;
+        grid-row:1;
+        margin:0rem;
     }
    .cards {
        height:16.5rem;
