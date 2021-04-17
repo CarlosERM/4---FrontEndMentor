@@ -26,7 +26,7 @@ Your users should:
 - View the optimal layout for the site depending on their device's screen size
 ### Screenshot
 
-![Frontend Mentor Four card feature section](https://user-images.githubusercontent.com/74724103/115078418-f9236080-9ed5-11eb-967d-534e6a41fa01.png)
+![Frontend Mentor Four card feature section](https://user-images.githubusercontent.com/74724103/115097471-ca6eaf80-9f00-11eb-9bc8-bb26a6ff07d6.png)
 ![Frontend Mentor Four card feature section MOBILE](https://user-images.githubusercontent.com/74724103/115078424-fa548d80-9ed5-11eb-83a7-0ce3d7e89bd4.png)
 
 
