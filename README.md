@@ -9,8 +9,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [https://github.com/CarlosERM/4-FrontEndMentor.git](https://github.com/CarlosERM/4-FrontEndMentor.git)
-- Live Site URL: [https://carloserm.github.io/4-FrontEndMentor/](https://carloserm.github.io/4-FrontEndMentor/)
+- Solution URL: [https://github.com/CarlosERM/Profile-card.git](https://github.com/CarlosERM/Profile-card.git)
+- Live Site URL: [https://carloserm.github.io/Profile-card/](https://carloserm.github.io/Profile-card/)
 
 ### Built with
 
@@ -21,5 +21,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Carlos Eduardo Rocha Miranda](https://www.your-site.com)
 - Frontend Mentor - [@CarlosERM](https://www.frontendmentor.io/profile/CarlosERM)
